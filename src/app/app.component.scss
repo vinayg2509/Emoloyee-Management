@@ -1,0 +1,39 @@
+mat-toolbar {
+  display: flex;
+  align-items: center;
+  background: #1976d2; /* Primary indigo color */
+  color: white;
+  padding: 0 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  letter-spacing: 0.05em;
+  height: 50px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+button[mat-raised-button] {
+  background-color: #d32f2f; /* Material warn red */
+  color: white;
+  font-weight: 700;
+  padding: 10px 24px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 4px rgba(211,47,47,0.6);
+  border: none;
+  cursor: pointer;
+}
+
+button[mat-raised-button]:hover {
+  background-color: #b71c1c;
+  box-shadow: 0 4px 12px rgba(183,28,28,0.8);
+}
+
+button[mat-raised-button]:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(211,47,47,0.5);
+}

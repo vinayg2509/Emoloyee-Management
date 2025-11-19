@@ -1,0 +1,42 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 320px;
+  padding: 16px;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  align-items: center;
+}
+
+mat-form-field {
+  flex: 1;
+  min-width: 200px; /* Prevents form fields from shrinking too much */
+  max-width: 400px; /* Optional: limits max size */
+}
+
+mat-radio-group {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+[mat-dialog-actions] {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  padding: 12px 16px;
+  border-top: 1px solid #e0e0e0;
+}
+.action{
+  padding: 0px,25px,20px;
+}
+button{
+  flex: 1;
+  height: 40px;
+ 
+}
