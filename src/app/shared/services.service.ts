@@ -8,7 +8,12 @@ import { Observable } from 'rxjs';
 export class ServicesService {
   constructor(private http: HttpClient) {}
 
+  //to create employee object in json server
   addEmployee(data: any): Observable<any> {
     return this.http.post<any>('http://localhost:3000/employees', data);
+  }
+  // To get the list of all the employee
+  getAllEmployee(): Observable<any> {
+    return this.http.get('http://localhost:3000/employees')
   }
 }
