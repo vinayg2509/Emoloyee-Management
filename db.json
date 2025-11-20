@@ -1,28 +1,28 @@
 {
   "employees": [
     {
-      "id": "0cf8",
-      "firstName": "Tom ",
-      "lastName": "Jerry",
-      "email": "tomjerry@gmail.com",
-      "dob": "",
-      "gender": "1",
-      "education": "",
-      "company": "BL",
-      "salary": "4LPA",
-      "experience": "3.4"
-    },
-    {
-      "id": "48b8",
+      "id": "d80f",
       "firstName": "Vinay",
       "lastName": "G",
-      "email": "vinay@gmail.com",
-      "dob": "",
-      "gender": "1",
-      "education": "",
+      "email": "vinayg@gmail.com",
+      "dob": "1994-09-24T18:30:00.000Z",
+      "gender": "Male",
+      "education": "Bachelor Degree",
       "company": "BL",
       "salary": "5LPA",
       "experience": "2"
+    },
+    {
+      "id": "28ef",
+      "firstName": "Pooja ",
+      "lastName": "NG",
+      "email": "poojang@gmail.com",
+      "dob": "2000-01-03T18:30:00.000Z",
+      "gender": "Female",
+      "education": "Bachelor Degree",
+      "company": "TataComm",
+      "salary": "5LPA",
+      "experience": "5"
     }
   ]
 }

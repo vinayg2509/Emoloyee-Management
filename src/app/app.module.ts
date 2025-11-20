@@ -16,6 +16,10 @@ import { MatRadioModule } from '@angular/material/radio';
 import { MatSelectModule } from '@angular/material/select';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
+import { MatButtonModule } from "@angular/material/button";
 @NgModule({
   declarations: [AppComponent, AddEditEmpComponent],
   imports: [
@@ -33,8 +37,12 @@ import { HttpClientModule } from '@angular/common/http';
     MatSelectModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
-  ],
+    HttpClientModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
+    MatButtonModule
+],
   providers: [],
   bootstrap: [AppComponent],
 })

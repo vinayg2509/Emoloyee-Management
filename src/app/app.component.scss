@@ -37,3 +37,16 @@ button[mat-raised-button]:focus {
   outline: none;
   box-shadow: 0 0 0 3px rgba(211,47,47,0.5);
 }
+.body{
+  padding-top: 20px;
+  max-width:1200px;
+  margin:0 auto;
+}
+mat-form-field{
+  width: 100%;
+}
+.action{
+  display: flex;
+  gap:4px;
+
+}

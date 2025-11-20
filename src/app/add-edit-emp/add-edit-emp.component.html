@@ -20,9 +20,9 @@
       <input matInput type="email" placeholder="tom@gmail.com" formControlName="email" />
     </mat-form-field>
 
-    <mat-form-field appearance="outline" formControlName="dob">
+    <mat-form-field appearance="outline" >
       <mat-label>DOB</mat-label>
-      <input matInput [matDatepicker]="picker" />
+      <input matInput [matDatepicker]="picker" formControlName="dob"/>
       <mat-hint>MM/DD/YYYY</mat-hint>
       <mat-datepicker-toggle
         matIconSuffix
@@ -34,15 +34,15 @@
   <div class="row">
     <mat-radio-group aria-label="Select " formControlName="gender">
       <mat-label><b>Gender</b></mat-label>
-      <mat-radio-button value="1">Male</mat-radio-button>
-      <mat-radio-button value="2">Female</mat-radio-button>
-      <mat-radio-button value="3">Other</mat-radio-button>
+      <mat-radio-button value="Male">Male</mat-radio-button>
+      <mat-radio-button value="Female">Female</mat-radio-button>
+      <mat-radio-button value="Other">Other</mat-radio-button>
     </mat-radio-group>
   </div>
   <div class="row">
-    <mat-form-field formControlName="education">
+    <mat-form-field >
       <mat-label>Select your Highest Degree</mat-label>
-      <mat-select>
+      <mat-select formControlName="education">
         <mat-option *ngFor="let edu of education" [value]="edu"
           >{{ edu }}
         </mat-option>
@@ -68,6 +68,8 @@
   <div mat-dialog-actions  class="action">
   <button mat-raised-button color="warn">Cancel</button>
   <button mat-raised-button color="primary" type="submit">Save</button>
+
+ 
 </div>
 </div>
 
